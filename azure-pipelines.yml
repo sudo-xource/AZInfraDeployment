@@ -19,7 +19,7 @@ steps:
     resourceGroupName: 'ADOTestDeploy-rg'
     location: 'Australia East'
     templateLocation: 'URL of the file'
-    csmFileLink: https://raw.githubusercontent.com/sudo-xource/AZInfraDeployment/main/CreateWebApp/azuredeploy.json?token=GHSAT0AAAAAABVGMB7HB6WJEQHVSP4SNZD2YUZ4GAQ
+    csmFileLink: 'https://raw.githubusercontent.com/sudo-xource/AZInfraDeployment/main/CreateWebApp/azuredeploy.json'
     overrideParameters: '-projectName myfirstpipeline'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
