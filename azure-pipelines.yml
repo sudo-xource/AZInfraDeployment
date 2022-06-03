@@ -20,7 +20,7 @@ steps:
     location: 'Australia East'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/sudo-xource/AZInfraDeployment/main/CreateWebApp/azuredeploy.json'
-    overrideParameters: '-projectName myfirstpipeline'
+    overrideParameters: '-projectName pipes'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
 
